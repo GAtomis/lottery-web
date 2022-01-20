@@ -109,9 +109,9 @@ a {
 }
 
 button {
-  color: rgba(127, 255, 255, 0.75);
+  color: #f9c05e;
   background: transparent;
-  outline: 1px solid rgba(127, 255, 255, 0.75);
+  outline: 1px solid #f9c05e;
   border: 0;
   padding: 1.6vh 4vh;
   margin: 0 4.6vh;
@@ -121,12 +121,12 @@ button {
 }
 
 button:hover {
-  background-color: rgba(0, 255, 255, 0.5);
+  background-color: rgba(255,255,0, .5);
 }
 
 button:active {
   color: #000000;
-  background-color: rgba(0, 255, 255, 0.75);
+  background-color: rgba(255,255,0, .9);
 }
 
 .highlight {
