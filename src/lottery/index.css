@@ -125,8 +125,8 @@ button:hover {
 }
 
 button:active {
-  color: #000000;
-  background-color: rgba(255,255,0, .9);
+  color: #fff;
+  background-color: rgba(255,255,0, .7);
 }
 
 .highlight {
