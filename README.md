@@ -2,7 +2,7 @@
  * @Description: 请输入....
  * @Author: Gavin
  * @Date: 2021-05-01 00:48:47
- * @LastEditTime: 2022-01-20 15:30:48
+ * @LastEditTime: 2022-01-20 16:09:30
  * @LastEditors: Gavin
 -->
 <h1 align="center">年会抽奖系统👋</h1>
@@ -14,7 +14,7 @@
   <img width="400" src="https://gd-filems.dancf.com/mcm79j/mcm79j/50641/19898600-108a-4593-b9b5-afcb1c9d401a734451.png">
 
 ## 浏览地址
-  [web浏览地址](https://github.com/moshang-xc/lottery)
+  [web浏览地址](https://gatomis.github.io/lottery-web/y)
 
 ## 目录结构
 
