@@ -2,7 +2,7 @@
  * @Description: 请输入....
  * @Author: Gavin
  * @Date: 2021-05-01 00:48:47
- * @LastEditTime: 2022-01-20 16:09:30
+ * @LastEditTime: 2022-01-20 16:44:45
  * @LastEditors: Gavin
 -->
 <h1 align="center">年会抽奖系统👋</h1>
@@ -15,6 +15,17 @@
 
 ## 浏览地址
   [web浏览地址](https://gatomis.github.io/lottery-web/)
+
+## 启动项目
+```
+yarn intall 安装依赖
+```
+```
+yarn dev  启动项目
+```
+```
+>yarn build 项目打包
+```
 
 ## 目录结构
 
