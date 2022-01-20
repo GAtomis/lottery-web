@@ -2,7 +2,7 @@
  * @Description: 请输入....
  * @Author: Gavin
  * @Date: 2021-05-01 00:48:47
- * @LastEditTime: 2022-01-20 16:46:18
+ * @LastEditTime: 2022-01-20 18:52:48
  * @LastEditors: Gavin
 -->
 <h1 align="center">年会抽奖系统👋</h1>
@@ -57,9 +57,9 @@ Lottery-web
 | excludeUser | Array[Info] | 排除奖池人员述                                                     |
 | atmosphereGroupCard   | String | 气氛组卡片                        |
 | background   | String | 背景图片                        |
-| EACH_COUNT   | Array[Number] | 抽奖次序默认有个隐藏将                       |
-| width   | string| 渲染抽奖墙宽度比例        最好按照原比例去坐              |
-| height   | string| 渲染抽奖墙长度比例       最好按照原比例去坐                 |
+| EACH_COUNT   | Array[Number] | 抽奖次序默认有个隐藏顺序                      |
+| width   | string| 渲染抽奖墙宽度比例        最好按照原比例去做             |
+| height   | string| 渲染抽奖墙长度比例       最好按照原比例去做                |
 ### Gift详情
 ```
 /**
