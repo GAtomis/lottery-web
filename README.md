@@ -5,7 +5,7 @@
  * @LastEditTime: 2022-01-20 15:58:42
  * @LastEditors: Gavin
 -->
-<h1 align="center">年会抽奖系统👋</h1>
+<h1 align="center"> 年会抽奖系统👋</h1>
 
 ## 项目介绍
  年会快到了,参与到了设计抽奖系统T-T,是在不想自写一个发现了[@moshang-xc](https://github.com/moshang-xc/lottery)大佬写的作品很炫酷,于是本人就二次开发了下大佬的作品,实现脱离后台前端mock分离版本,喜欢的可以给@moshang-xc点个Star 
