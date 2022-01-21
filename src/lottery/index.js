@@ -119,11 +119,18 @@ function initAll() {
   //     // shineCard();
   //   }
   // });
-
+  initStyle()
   startMock()
 }
-function startMock() {
+function initStyle(){
+  if(mockData.bgVideo){
+    bgVideo.innerHTML=`<video class="bg-video" src="${mockData.bgVideo}" loop="" muted=""
+    autoplay=""></video>`
+  }
   body.style.backgroundImage = mockData.background//背景颜色
+}
+function startMock() {
+
   prizes = mockData.prizes;//奖项
   EACH_COUNT = mockData.EACH_COUNT;//抽奖公式["1","2"] 一等奖1,二等奖3 
   COMPANY = mockData.COMPANY;//公司名

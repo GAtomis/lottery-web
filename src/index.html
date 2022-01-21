@@ -2,56 +2,57 @@
  * @Description: 请输入....
  * @Author: Gavin
  * @Date: 2022-01-11 13:18:30
- * @LastEditTime: 2022-01-19 17:15:19
+ * @LastEditTime: 2022-01-21 15:00:21
  * @LastEditors: Gavin
 -->
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>年会抽奖</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
-    />
-    <!-- <link rel="stylesheet" href="./index.css"> -->
-    <!-- <link rel="stylesheet" href="./css/layer.css"> -->
-  </head>
 
-  <body id="body">
-    <!-- <script src="./lib/layer.js"></script> -->
-    <script src="./lib/three.min.js"></script>
-    <script src="./lib/tween.min.js"></script>
-    <script src="./lib/TrackballControls.js"></script>
-    <script src="./lib/CSS3DRenderer.js"></script>
-    <script src="./lib/ajax.js"></script>
+<head>
+  <title>年会抽奖</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+  <!-- <link rel="stylesheet" href="./index.css"> -->
+  <!-- <link rel="stylesheet" href="./css/layer.css"> -->
+</head>
+
+<body id="body">
+  <!-- <script src="./lib/layer.js"></script> -->
+  <script src="./lib/three.min.js"></script>
+  <script src="./lib/tween.min.js"></script>
+  <script src="./lib/TrackballControls.js"></script>
+  <script src="./lib/CSS3DRenderer.js"></script>
+  <script src="./lib/ajax.js"></script>
 
 
-    <div class="canvas-box">
-      <canvas id="canvas">你的浏览器不支持canvas</canvas>
+  <div class="canvas-box">
+    <canvas id="canvas">你的浏览器不支持canvas</canvas>
+  </div>
+
+  <div class="bg-box" id="bgVideo"> </div>
+
+  <div class="music">
+    <audio id="music" class="music-item" loop></audio>
+    <div id="musicBox" class="music-box" title="播放/暂停背景音乐"></div>
+  </div>
+
+  <div id="prizeBar"></div>
+
+  <div id="container"></div>
+
+  <div id="menu">
+    <button id="enter">进入抽奖</button>
+    <div id="lotteryBar" class="none">
+      <button id="lottery">抽奖</button>
+      <button id="reLottery">重新抽奖</button>
+      <!-- <button id="result">返回首页</button> -->
+      <!-- <button id="back">返回首页</button> -->
+      <button id="awards">颁奖模式</button>
+      <button id="reset" class="margin-l-40">重置</button>
     </div>
+  </div>
 
-    <div class="music">
-      <audio id="music"  class="music-item" loop></audio>
-      <div id="musicBox" class="music-box" title="播放/暂停背景音乐"></div>
-    </div>
+  <div class="qipao-container"></div>
+</body>
 
-    <div id="prizeBar"></div>
-
-    <div id="container"></div>
-
-    <div id="menu">
-      <button id="enter">进入抽奖</button>
-      <div id="lotteryBar" class="none">
-        <button id="lottery">抽奖</button>
-        <button id="reLottery">重新抽奖</button>
-        <!-- <button id="result">返回首页</button> -->
-        <!-- <button id="back">返回首页</button> -->
-        <button id="awards">颁奖模式</button>
-        <button id="reset" class="margin-l-40">重置</button>
-      </div>
-    </div>
-
-    <div class="qipao-container"></div>
-  </body>
 </html>

@@ -2,7 +2,7 @@
  * @Description: 请输入....
  * @Author: Gavin
  * @Date: 2022-01-11 15:24:49
- * @LastEditTime: 2022-01-20 15:08:54
+ * @LastEditTime: 2022-01-21 15:14:26
  * @LastEditors: Gavin
  */
 const test = [
@@ -138,10 +138,12 @@ const opacity = () => 0.3 || Math.random() * 0.7 + 0.25
 const atmosphereGroupCard = () => `rgba(${rgba},${opacity()})`
 //背景色
 const background = "url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01ef5e59c878d5a8012053f8c53ab7.jpg%401280w_1l_2o_100sh.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1645253836&t=e6413ccc6469632cf5476f5f6067e13b)"
+//背景动态壁纸模式 不用时可以设置为null或者注释
+// const bgVideo="//game.gtimg.cn/images/lol/act/a20220121lunarpass/bg.mp4"
 const width = window.innerWidth * .75
 const height = window.innerHeight * .75
 /**
  * 一次抽取的奖品个数与prizes对应
  */
 const EACH_COUNT = [1, 1, 1, 5, 5];
-export default { EACH_COUNT, prizes, COMPANY, user, luckyData, leftUsers, awardList, excludeUser, atmosphereGroupCard, background, setSecret, width, height }
+export default { EACH_COUNT, prizes, COMPANY, user, luckyData, leftUsers, awardList, excludeUser, atmosphereGroupCard, background, setSecret, width, height,bgVideo }
