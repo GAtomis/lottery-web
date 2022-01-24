@@ -2,7 +2,7 @@
  * @Description: 请输入....
  * @Author: Gavin
  * @Date: 2021-05-01 00:48:47
- * @LastEditTime: 2022-01-21 15:04:52
+ * @LastEditTime: 2022-01-24 11:13:16
  * @LastEditors: Gavin
 -->
 <h1 align="center">年会抽奖系统👋</h1>
@@ -119,6 +119,8 @@ function setSecret(nowItem,basicData) {
 | 1ts-lottery | 抽奖进行时音乐|
 | shenchou | 备用|
 
+### 动态壁纸和静态壁纸
+新加入的动态属性会初始化时候判断是否设置了动态壁纸URL,这里推荐在线地址,本地路径请用相对路径去导入,如不适用动态壁纸请把属性设置为null
 
 ## Store（缓存）
 当页面刷新了怎么办,别担心这里做了页面数据缓存
