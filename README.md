@@ -2,7 +2,7 @@
  * @Description: 请输入....
  * @Author: Gavin
  * @Date: 2021-05-01 00:48:47
- * @LastEditTime: 2022-01-24 11:13:16
+ * @LastEditTime: 2022-01-26 10:25:35
  * @LastEditors: Gavin
 -->
 <h1 align="center">年会抽奖系统👋</h1>
@@ -108,15 +108,15 @@ function setSecret(nowItem,basicData) {
 }
 ```
 ### 背景音乐说明
-方法在index.js replaceMusic()
+方法在index.js replaceMusic('enter-BGM')进行场景音乐替换(默认格式为m4a)
 
 | 参数  |  描述    |
 | ----- | ------ |
 | enter-BGM  | 进场音乐 |
 | other-BJ-BGM  | 抽奖颁奖音乐 |
 | other-lottery | 抽奖进行时音乐|
-| 1ts-BJ-BGM | 抽奖颁奖音乐 |
-| 1ts-lottery | 抽奖进行时音乐|
+| 1st-BJ-BGM | 抽奖颁奖音乐 |
+| 1st-lottery | 抽奖进行时音乐|
 | shenchou | 备用|
 
 ### 动态壁纸和静态壁纸
