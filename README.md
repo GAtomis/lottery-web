@@ -60,7 +60,7 @@ Lottery-web
 | EACH_COUNT   | Array[Number] | 抽奖次序默认有个隐藏顺序                      |
 | width   | string| 渲染抽奖墙宽度比例        最好按照原比例去做             |
 | height   | string| 渲染抽奖墙长度比例       最好按照原比例去做                |
-| bgVideo   | string| 可以放动态渲染图(mp4类型这种)     使用时会自动覆盖背景不用时请注释或者node该属性               |
+| bgVideo   | string| 可以放动态渲染图(mp4类型这种)     使用时会自动覆盖背景不用时请注释或者null该属性               |
 ### Gift详情
 ```
 /**
