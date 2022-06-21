@@ -2,7 +2,7 @@
  * @Description: 请输入....
  * @Author: Gavin
  * @Date: 2021-05-01 00:48:47
- * @LastEditTime: 2022-01-26 10:25:35
+ * @LastEditTime: 2022-06-21 18:06:07
  * @LastEditors: Gavin
 -->
 <h1 align="center">年会抽奖系统👋</h1>
@@ -137,4 +137,3 @@ function setSecret(nowItem,basicData) {
 1. 卡片显示编号和名字(index.js)
 2. 选中颜色（index.css）
 3. 卡片背景 (index.css)
-

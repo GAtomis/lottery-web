@@ -2,7 +2,7 @@
  * @Description: 请输入....
  * @Author: Gavin
  * @Date: 2022-01-11 15:24:49
- * @LastEditTime: 2022-01-21 15:14:26
+ * @LastEditTime: 2022-06-21 17:42:35
  * @LastEditors: Gavin
  */
 const test = [
@@ -141,9 +141,9 @@ const background = "url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fim
 //背景动态壁纸模式 不用时可以设置为null或者注释
 // const bgVideo="//game.gtimg.cn/images/lol/act/a20220121lunarpass/bg.mp4"
 const width = window.innerWidth * .75
-const height = window.innerHeight * .75
+const height = window.innerWidth * .75 * .75
 /**
  * 一次抽取的奖品个数与prizes对应
  */
 const EACH_COUNT = [1, 1, 1, 5, 5];
-export default { EACH_COUNT, prizes, COMPANY, user, luckyData, leftUsers, awardList, excludeUser, atmosphereGroupCard, background, setSecret, width, height,bgVideo }
+export default { EACH_COUNT, prizes, COMPANY, user, luckyData, leftUsers, awardList, excludeUser, atmosphereGroupCard, background, setSecret, width, height, bgVideo }

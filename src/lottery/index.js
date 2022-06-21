@@ -122,9 +122,9 @@ function initAll() {
   initStyle()
   startMock()
 }
-function initStyle(){
-  if(mockData.bgVideo){
-    bgVideo.innerHTML=`<video class="bg-video" src="${mockData.bgVideo}" loop="" muted=""
+function initStyle() {
+  if (mockData.bgVideo) {
+    bgVideo.innerHTML = `<video class="bg-video" src="${mockData.bgVideo}" loop="" muted=""
     autoplay=""></video>`
   }
   body.style.backgroundImage = mockData.background//背景颜色
@@ -165,7 +165,7 @@ function startMock() {
   //setuser
   basicData.users = mockData.user
 
-  localStorage.setItem("allUser",JSON.stringify(basicData.leftUsers))
+  localStorage.setItem("allUser", JSON.stringify(basicData.leftUsers))
 
   initCards();
   // startMaoPao();
@@ -189,7 +189,7 @@ function initCards() {
     };
 
   camera = new THREE.PerspectiveCamera(
-    40,
+    45,
     mockData.width / mockData.height,
     1,
     10000
@@ -400,15 +400,15 @@ function bindEvent() {
         break;
       //返回首页
       case "back":
-  
+
         switchScreen("enter");
-     
+
         rotate = false;
         break;
       // 进入抽奖
       case "awards":
         replaceMusic(currentPrize.awards)
-     
+
         break;
       case "enter":
         removeHighlight();
@@ -457,11 +457,11 @@ function bindEvent() {
           );
           if (!doREset) {
             return;
-          }else{
+          } else {
             document.getElementById("reset").click()
           }
-    
-          
+
+
           return
         }
         replaceMusic(currentPrize.enter)
@@ -646,9 +646,9 @@ function rotateBall() {
     new TWEEN.Tween(scene.rotation)
       .to(
         {
-          y:Math.PI * (currentPrize&&currentPrize.circle||8)
+          y: Math.PI * (currentPrize && currentPrize.circle || 8)
         },
-        currentPrize&&currentPrize.ROTATE_TIME||ROTATE_TIME
+        currentPrize && currentPrize.ROTATE_TIME || ROTATE_TIME
       )
       .onUpdate(render)
       .easing(TWEEN.Easing.Exponential.InOut)
@@ -1159,11 +1159,11 @@ function createHighlight() {
  * @Date: 2022-01-19 14:46:05
  */
 function replaceMusic(scenes) {
-  if(nowScenes==scenes)return 
+  if (nowScenes == scenes) return
   let music = document.querySelector("#music");
-  music.src=`./data/${scenes}.m4a`
+  music.src = `./data/${scenes}.m4a`
   musicBox.click()
-  nowScenes=scenes
+  nowScenes = scenes
 
 }
 
