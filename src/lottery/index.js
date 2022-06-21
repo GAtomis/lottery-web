@@ -569,7 +569,7 @@ function createCard(user, isBold, id, showTable) {
 
   }
   //添加公司标识
-  // element.appendChild(createElement("company", COMPANY));
+  COMPANY && element.appendChild(createElement("company", COMPANY));
 
   element.appendChild(createElement("name", user[1]));
 
@@ -1031,9 +1031,10 @@ function random(num) {
 // }
 function changeCard(cardIndex, user) {
   let card = threeDCards[cardIndex].element;
-
-  card.innerHTML = `<div class="name">${user[1]
-    }</div>`;
+  const nameDom = `<div class="name">${user[1]
+    }</div>`
+  const companyDom = `<div class="company">${COMPANY}</div>`
+  card.innerHTML = nameDom + (COMPANY ? companyDom : '');
 }
 
 /**

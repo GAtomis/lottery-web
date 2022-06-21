@@ -2,7 +2,7 @@
  * @Description: 请输入....
  * @Author: Gavin
  * @Date: 2022-01-11 15:24:49
- * @LastEditTime: 2022-06-21 17:42:35
+ * @LastEditTime: 2022-06-21 18:34:34
  * @LastEditors: Gavin
  */
 const test = [
@@ -38,7 +38,7 @@ const user = test.sort(randomsort)
 /**
  * 卡片公司名称标识
  */
-const COMPANY = "baidu";
+const COMPANY = "Github";
 /**
  * 奖品设置
  * type: 唯一标识，0是默认特别奖的占位符，其它奖品不可使用

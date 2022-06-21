@@ -82,23 +82,23 @@ a {
 
 .element .company {
   position: absolute;
-  top: 1.2vh;
+  top: 27%;
   right: 0;
   width: 100%;
-  font-size: 2vh;
-  color: rgba(127, 255, 255, 0.75);
+  font-size: 25px;
+  color: #d6eea1;
 }
 
 .element .name {
   margin: 0 10px;
   position: absolute;
-  top: 30%;
+  top: 52%;
   left: 0;
   right: 0;
-  font-size: 2.2vh;
+  font-size: 26px;
   font-weight: bold;
   color: #f9c05e;
-  text-shadow: 0 0 .2vh rgba(249, 192, 94, 0.95);
+  text-shadow: 0 0 1px rgba(249, 192, 94, 0.95);
 }
 
 .element .details {
