@@ -2,8 +2,8 @@
  * @Description: 请输入....
  * @Author: Gavin
  * @Date: 2021-05-01 00:48:47
- * @LastEditTime: 2022-06-21 18:06:07
- * @LastEditors: Gavin
+ * @LastEditTime: 2023-01-16 15:33:27
+ * @LastEditors: Gavin 850680822@qq.com
 -->
 <h1 align="center">年会抽奖系统👋</h1>
 
@@ -137,3 +137,4 @@ function setSecret(nowItem,basicData) {
 1. 卡片显示编号和名字(index.js)
 2. 选中颜色（index.css）
 3. 卡片背景 (index.css)
+4. 不能说的秘密逻辑自定义开发(mock.js)
