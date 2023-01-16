@@ -1,6 +1,6 @@
 {
-  "name": "lucky",
-  "version": "1.0.0",
+  "name": "lottery-web",
+  "version": "1.0.1",
   "description": "抽奖",
   "main": "index.js",
   "scripts": {
@@ -31,9 +31,6 @@
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1",
     "webpack-merge": "^4.2.2"
-  },
-  "engines": {
-    "node": "<= 13.14.0"
   },
   "dependencies": {}
 }
