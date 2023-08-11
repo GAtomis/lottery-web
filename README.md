@@ -8,7 +8,7 @@
 <h1 align="center">年会抽奖系统👋</h1>
 
 ## 项目介绍
- 年会快到了,参与到了设计抽奖系统T-T,是在不想自写一个发现了[@moshang-xc](https://github.com/moshang-xc/lottery)大佬写的作品很炫酷,于是本人就二次开发了下大佬的作品,实现脱离后台前端mock分离版本,喜欢的可以给@moshang-xc点个Star 
+ 年会快到了,参与到了设计抽奖系统T-T,本项目基于THREEJS+webpack+HTML实现一个配置化的抽奖页面,所有的配置都是基于JSON配置。
 
 ## 页面预览
   <img width="400" src="https://gd-filems.dancf.com/mcm79j/mcm79j/50641/19898600-108a-4593-b9b5-afcb1c9d401a734451.png">
@@ -143,3 +143,6 @@ function setSecret(nowItem,basicData) {
 2. 选中颜色（index.css）
 3. 卡片背景 (index.css)
 4. 不能说的秘密逻辑自定义开发(mock.js)
+
+## 鸣谢
+本项目是基于[@moshang-xc](https://github.com/moshang-xc/lottery)大佬写的作品很炫酷,于是本人就二次开发了下大佬的作品,实现脱离后台前端mock分离版本,喜欢的可以给@moshang-xc点个Star 
