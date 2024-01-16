@@ -4,7 +4,7 @@
   "description": "抽奖",
   "main": "index.js",
   "scripts": {
-    "serve": "npm run start",
+    "serve": "npm run dev",
     "build": "webpack --mode=production --progress --colors",
     "dev": "webpack-dev-server --config webpack.dev.js --mode=development --progress --colors"
   },

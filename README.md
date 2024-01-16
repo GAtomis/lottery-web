@@ -2,8 +2,8 @@
  * @Description: 请输入....
  * @Author: Gavin
  * @Date: 2021-05-01 00:48:47
- * @LastEditTime: 2023-01-16 15:45:09
- * @LastEditors: Gavin 850680822@qq.com
+ * @LastEditTime: 2024-01-16 23:12:45
+ * @LastEditors: GAtomis 850680822@qq.com
 -->
 <h1 align="center">年会抽奖系统👋</h1>
 
@@ -144,5 +144,8 @@ function setSecret(nowItem,basicData) {
 3. 卡片背景 (index.css)
 4. 不能说的秘密逻辑自定义开发(mock.js)
 
+## 更新日志
+* 更新了tweenjs的版本
+* 增加了新的手动停止抽奖功能
 ## 鸣谢
 本项目是基于[@moshang-xc](https://github.com/moshang-xc/lottery)大佬写的作品很炫酷,于是本人就二次开发了下大佬的作品,实现脱离后台前端mock分离版本,喜欢的可以给@moshang-xc点个Star 
