@@ -372,7 +372,7 @@ function bindEvent() {
       if (e.target.id === "lottery") {
         
         rotateObj.stop();
-        btns.lottery.innerHTML = "开始抽奖";
+
       } else {
         addQipao("正在抽奖，抽慢一点点～～");
       }
@@ -833,6 +833,7 @@ function resetCard(duration = 500) {
 function lottery() {
   btns.lottery.innerHTML = "停止抽奖";
   rotateBall().then(() => {
+    btns.lottery.innerHTML = "开始抽奖";
     // 将之前的记录置空
     currentLuckys = [];
     selectedCardIndex = [];
