@@ -2,7 +2,7 @@
  * @Description: 请输入....
  * @Author: Gavin
  * @Date: 2021-05-01 00:48:47
- * @LastEditTime: 2024-01-22 12:05:19
+ * @LastEditTime: 2024-02-28 13:59:07
  * @LastEditors: GAtomis 850680822@qq.com
 -->
 <h1 align="center">年会抽奖系统👋</h1>
@@ -146,6 +146,7 @@ function setSecret(nowItem,basicData) {
 
 ### 更新日志
 * 增加分支feat-manual，用于手动停球，有这个功能需求的小伙伴可以下载该分支开发
+* 删除package中多余的第三方库
 
 ## 鸣谢
 本项目是基于[@moshang-xc](https://github.com/moshang-xc/lottery)大佬写的作品很炫酷,于是本人就二次开发了下大佬的作品,实现脱离后台前端mock分离版本,喜欢的可以给@moshang-xc点个Star 
