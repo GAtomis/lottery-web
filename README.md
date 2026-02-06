@@ -9,7 +9,8 @@
 
 ## 项目介绍
  年会快到了,参与到了设计抽奖系统T-T,本项目基于THREEJS+webpack+HTML实现一个配置化的抽奖页面,所有的配置都是基于JSON配置，喜欢本作品就来个🌟吧。
-
+## react重构版本
+[lottery-web-react](https://github.com/GAtomis/lottery-web-react)
 ## 页面预览
   <img width="400" src="https://gd-filems.dancf.com/mcm79j/mcm79j/50641/19898600-108a-4593-b9b5-afcb1c9d401a734451.png">
 
